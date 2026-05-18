@@ -3,7 +3,7 @@ const escola = "EEEP Miguel Gurgel"; // Não muda nunca
 let nomeAluno = "Maria Souza";        // Pode mudar
 let idade = 16;                       // O JS já sabe que é um Number
 // Provocando um erro proposital para os alunos verem:
-// escola = "Outra Escola"; // Se descommentar esta linha, dará erro!
+//escola = "Outra Escola"; // Se descommentar esta linha, dará erro!
 // ====== 2. TIPOS DE DADOS PRIMITIVOS ======
 let matriculaAtiva = true;   // Boolean
 let telefone = null;         // Null (explicitamente vazio por enquanto)
