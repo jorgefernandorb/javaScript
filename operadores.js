@@ -4,7 +4,6 @@
 console.log("--- Operações Matemáticas ---");
 let precoProduto = 100;
 let frete = 15;
-
 let totalComSoma = precoProduto + frete;
 let desconto = precoProduto - 20;
 let dobroDoPreco = precoProduto * 2;
@@ -23,13 +22,12 @@ console.log(`2 elevado ao cubo: ${aoCubo}`);
 console.log("--- Operadores de Comparação ---");
 let numeroOito = 8;
 let textoOito = "8";
-
 console.log(numeroOito > 10);  // false
 console.log(numeroOito >= 8);  // true
-
 // Entendendo a diferença crucial entre == e === (Excelente para prova!)
 console.log(numeroOito == textoOito);  // true (Porque ambos valem 8 visualmente)
 console.log(numeroOito === textoOito); // false (Porque um é Number e o outro é String)
+console.log(numeroOito != textoOito); // false (Porque ambos valem 8 visualmente)
 console.log(numeroOito !== textoOito); // true (Confirma que eles são estritamente diferentes)
 
 
